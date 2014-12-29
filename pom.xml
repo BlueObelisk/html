@@ -119,9 +119,17 @@
 			<version>3.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
+		    <groupId>org.xml-cml</groupId>
+		    <artifactId>svg</artifactId>
+		    <version>0.2-SNAPSHOT</version>
+		</dependency>
+		<!--  to avoid Xerces Hell? 
+		http://stackoverflow.com/questions/17777821/maven-dependency-conflict-org-w3c-dom-elementtraversal
+		 -->
+		<dependency>
 			<groupId>xml-apis</groupId>
 			<artifactId>xml-apis</artifactId>
-			<version>1.4.01</version>
+			<version>1.4.01</version> 
 		</dependency>
 		
 		<dependency>
